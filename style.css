@@ -1,0 +1,74 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #3c5c6f;
+    margin: 0;
+    padding:0;
+}
+
+.weather-widget{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 280px;
+    height: 310px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    background-color: #283d4a;
+    border-top: 10px solid #9fe275;
+}
+.weather-widget__title{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.weather-widget__output{
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.weather-widget__params p{
+    color: #d4d4d4;
+}
+.weather-widget__params p b{
+    color: #e2e2e2;
+}
+
+.weather-widget__status{
+    text-align: center;
+    color: beige;
+}
+.weather-widget__input{
+    display: flex;
+
+    margin: 20px 0;
+}
+.weather-widget__input input{
+        padding: 0px 0px 0px 10px;
+        color: #606060;
+        line-height: 25px;
+        background-color: rgba(25, 37, 44, 0.70);
+        border: 1px solid rgba(42, 74, 93, 0.52);
+        width: 50%;
+}
+
+#weather-button{
+width: 100%;
+background-color: #8cdb5a;
+border: 1px solid #5b883f;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.2s;
+line-height: 25px;
+transition: 0.4s;
+}
+
+#weather-button:hover{
+    background-color: #5b883f;
+}
